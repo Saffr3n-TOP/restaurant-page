@@ -1,0 +1,9 @@
+.footer {
+  padding: 8px;
+  box-shadow: 0 -4px 8px 0 var(--purple-200);
+  background: var(--purple-200);
+  font-size: 0.6rem;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+}
