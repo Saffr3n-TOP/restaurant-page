@@ -1,0 +1,18 @@
+.main {
+  padding: 8px;
+  text-align: center;
+  overflow: auto;
+}
+
+.main__image {
+  width: 400px;
+  margin: 1rem;
+}
+
+.main__text + .main__text {
+  margin-top: 0.7rem;
+}
+
+.main__heading {
+  font-size: 1.5rem;
+}
