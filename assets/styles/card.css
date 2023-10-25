@@ -1,0 +1,28 @@
+.card {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  padding: 16px;
+  background: var(--purple-200);
+  box-shadow: 4px 4px 4px 0 var(--purple-300);
+  transition: transform 0.1s linear;
+}
+
+.card:hover {
+  transform: scale(1.025);
+}
+
+.card__heading {
+  font-size: 1.2rem;
+}
+
+.card__image {
+  display: grid;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  background: var(--purple-050);
+  font-size: 0.9rem;
+  opacity: 0.5;
+  cursor: default;
+}
